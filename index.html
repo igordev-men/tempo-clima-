@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempoclima</title>
+</head>
+<body>
+    <header>
+        <h1>TEMPO CLIMA</h1>
+        <br>
+        <h4>site do tempo</h4>
+    </header>
+    <main>
+        <section>
+            <input type="text" id="cidade" placeholder="Digite a cidade">
+            <button onclick="buscarClima()">Buscar</button>
+            
+            <div class="results">
+                <h2 id="cidadeNome"></h2>
+                <p id="temperatura"></p>
+                <p id="descricao"></p>
+            </div>
+        </section>
+        <script src="main.js"></script> 
+    </main>
+</body>
+</html>
